@@ -34,4 +34,43 @@ El dataset incluye métricas generadas por Spotify que describen el audio de cad
 - **tempo**: Velocidad o ritmo (BPM)  
 ---
 
+## Definiciones - Docker Compose
+
+### ¿Qué es `version` y para qué sirve?
+Define la versión de Docker Compose. Sirve para asegurar compatibilidad.
+
+### ¿Qué hace la sección `services`?
+Define los contenedores. Cada servicio es un contenedor.
+
+### ¿De dónde viene la imagen `jupyter/pyspark-notebook`?
+De Docker Hub. Ya trae PySpark y Jupyter.
+
+### ¿Qué significa el mapeo de puertos `8888:8888`?
+Conecta el puerto local con el del contenedor para acceder desde el navegador.
+
+### ¿Qué hacen los `volumes` y por qué son importantes?
+Permiten compartir archivos entre el PC y el contenedor. Evitan perder datos.
+
+### ¿Para qué sirve `JUPYTER_ENABLE_LAB`?
+Activa JupyterLab en vez del Notebook clásico.
+### ¿Qué es `version` y para qué sirve?
+Define la versión de Docker Compose. Sirve para asegurar compatibilidad.
+
+### ¿Qué hace la sección `services`?
+Define los contenedores. Cada servicio es un contenedor.
+
+### ¿De dónde viene la imagen `jupyter/pyspark-notebook`?
+De Docker Hub. Ya trae PySpark y Jupyter.
+
+### ¿Qué significa el mapeo de puertos `8888:8888`?
+Conecta el puerto local con el del contenedor para acceder desde el navegador.
+
+### ¿Qué hacen los `volumes` y por qué son importantes?
+Permiten compartir archivos entre el PC y el contenedor. Evitan perder datos.
+
+### ¿Para qué sirve `JUPYTER_ENABLE_LAB`?
+Activa JupyterLab en vez del Notebook clásico.
+
+
+
 💡 *Fuente: Dataset obtenido desde Kaggle > https://www.kaggle.com/datasets/joebeachcapital/top-10000-spotify-songs-1960-now 2026-03-13 *
