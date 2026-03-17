@@ -32,23 +32,6 @@ El dataset incluye métricas generadas por Spotify que describen el audio de cad
 - **liveness**: Probabilidad de que sea una grabación en vivo  
 - **valence**: Positividad musical  
 - **tempo**: Velocidad o ritmo (BPM)  
-
-### 🎯 Usos potenciales
-
-Este dataset puede utilizarse para:
-
-- 📈 Análisis de tendencias musicales a lo largo del tiempo  
-- 🤖 Modelos de recomendación de música  
-- 🎼 Clasificación de canciones por género o estado de ánimo  
-- 🔍 Análisis exploratorio de datos (EDA)  
-- 🧠 Proyectos de machine learning y deep learning  
-
-### ⚠️ Notas
-
-- La popularidad puede cambiar con el tiempo, ya que depende de la actividad en la plataforma.  
-- Algunas canciones pueden tener múltiples artistas o versiones.  
-- Los datos de audio son generados automáticamente por Spotify.
-
 ---
 
-💡 *Fuente: Dataset obtenido desde Kaggle.*
+💡 *Fuente: Dataset obtenido desde Kaggle > https://www.kaggle.com/datasets/joebeachcapital/top-10000-spotify-songs-1960-now 2026-03-13 *
